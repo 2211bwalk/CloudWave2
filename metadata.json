@@ -1,0 +1,7 @@
+{
+  "name": "CloudWave Radio",
+  "description": "A collaborative online radio station where users can upload and stream audio tracks in real-time.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
