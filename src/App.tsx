@@ -275,9 +275,11 @@ function RadioApp() {
             </div>
             <div className="flex flex-col">
               <div className="flex items-center gap-2">
-                <h1 className="text-xl font-bold tracking-tight bg-gradient-to-r from-white to-white/60 bg-clip-text text-transparent">
-                  CloudWave Radio
-                </h1>
+                <img 
+  src="/logo.png" 
+  alt="CloudWave Radio" 
+  className="h-10 w-auto"
+/>
                 <div className="flex items-center gap-1.5 px-2 py-0.5 bg-red-500/10 border border-red-500/20 rounded-md">
                   <span className="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse" />
                   <span className="text-[10px] font-bold text-red-500 tracking-wider">LIVE</span>
