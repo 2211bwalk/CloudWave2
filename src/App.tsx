@@ -270,9 +270,11 @@ function RadioApp() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0c]/80 backdrop-blur-xl border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center shadow-lg shadow-indigo-500/20">
-              <Radio className="w-6 h-6 text-white" />
-            </div>
+            <img 
+  src="/icon.png" 
+  alt="CloudWave Icon" 
+  className="w-10 h-10"
+/>
             <div className="flex flex-col">
               <div className="flex items-center gap-2">
                 <img 
