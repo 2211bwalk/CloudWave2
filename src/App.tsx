@@ -273,14 +273,14 @@ function RadioApp() {
             <img 
   src="/icon.png" 
   alt="CloudWave Icon" 
-  className="w-10 h-10"
+  className="w-14 h-14"
 />
             <div className="flex flex-col">
               <div className="flex items-center gap-2">
                 <img 
   src="/logo.png" 
   alt="CloudWave Radio" 
-  className="h-10 w-auto"
+  className="h-16 w-auto"
 />
                 <div className="flex items-center gap-1.5 px-2 py-0.5 bg-red-500/10 border border-red-500/20 rounded-md">
                   <span className="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse" />
@@ -385,7 +385,7 @@ function RadioApp() {
                 >
                   <AlertCircle className="w-5 h-5 shrink-0" />
                   <p className="flex-1">{audioError}</p>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-4">
                     <button 
                       onClick={handleRetry}
                       className="px-3 py-1 bg-white/20 hover:bg-white/30 rounded-lg transition-colors text-xs font-bold"
