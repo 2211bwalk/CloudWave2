@@ -273,14 +273,14 @@ function RadioApp() {
             <img 
   src="/icon.png" 
   alt="CloudWave Icon" 
-  className="w-12 h-12 rounded-xl"
+  className="w-16 h-16 rounded-xl"
 />
             <div className="flex flex-col">
               <div className="flex items-center gap-4">
                 <img 
   src="/logo.png" 
   alt="CloudWave Radio" 
-  className="h-20 w-auto drop-shadow-[0_0_18px_rgba(139,92,246,0.5)]"
+  className="h-32 w-auto -my-6 drop-shadow-[0_0_18px_rgba(139,92,246,0.5)]"
 />
                 <div className="flex items-center gap-1.5 px-2 py-0.5 bg-red-500/10 border border-red-500/20 rounded-md">
                   <span className="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse" />
